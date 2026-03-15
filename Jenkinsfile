@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('clone'){
       steps{
-        git url :'https://github.com/chethan6186/j-d.git'
+        git url :'https://github.com/chethan6186/j-d.git', branch: 'main'
       }
     }
     stage('Run Script'){
